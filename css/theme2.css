@@ -1,0 +1,9 @@
+body {
+	height:350px;
+	background-image:url(../images/pic3.gif);
+	background-repeat:no-repeat;
+	background-position:center;
+}
+
+p { font: bold 20px AddElectricCity;
+	 }

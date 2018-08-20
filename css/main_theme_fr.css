@@ -1,0 +1,151 @@
+	/*Get rid of default padding and margin*/
+
+	*{
+		margin:0px;
+		padding:0px;
+		list-style-type:none; /*to remove points from lists items*/
+		font-family: consolas;
+	}
+
+	header,section,aside,footer,nav,article {
+		display:block; /*To consider these elements as blocks*/
+	}
+
+	/* Centering website */
+
+	.container {
+		width: 1000px;
+		margin: 0px auto;
+	}
+
+	.clear {
+		clear:both;
+	}
+
+	.top_page{
+		background-image: url(../images/back2.jpg);
+		border: 0px solid #ddccee;
+		border-radius:5px;
+	}
+
+	.logo {
+		width:400;
+		height:181;
+		float:left;
+	}
+
+	.top_nav {
+		width:600px; /*the total width (1000) - the logo width (400)*/
+		float:left;
+	}
+
+	.top_nav ul li {
+		float:left;
+		padding:90px 20px;
+	}
+
+	.left_side { /*The section*/
+		float:left;
+		width:700px;
+	}
+
+	.right_side {
+		float:right;
+		width:300px;
+	}
+
+	.left_side article {
+		border: 1px solid #ddccee;
+		border-radius:5px;
+		margin:10px 10px 0px 0px; /*top left bottom right*/
+		padding:10px;
+	}
+
+	.right_side div {
+		border: 1px solid #ddccee;
+		border-radius:5px;
+		margin:10px 0px 10px 0px; /*top left bottom right*/
+		padding:10px;
+	}
+
+	.page_footer {
+		clear:both; /*Make footer clear floated elements*/
+		text-align:right;
+	}
+
+	p {
+		text-align:justify;
+		font-size: 16px;
+	}
+
+	table {
+		border-collapse: collapse;
+		text-align: center;
+	}
+
+	th, td {
+		border: 1px solid grey; /*width style color*/
+		padding:5px;
+	}
+
+	thead {
+		background-color: #ccddee;
+	}
+
+	tr:nth-child(2n) {
+		background-color:#ddeecc;
+	}
+
+	h2 {
+		color:blue;
+		font-weight: normal;
+	}
+
+	h4 {
+		text-align:justify;
+		font-weight: normal;
+	}
+
+	h3 {
+		color:red;
+		font-weight: normal;
+	}
+
+	a {
+		text-decoration:none;
+	}
+
+	a:hover {
+		color:red;
+		font-size:18px;
+	}
+
+	a:active {
+		color:yellow;
+	}
+
+fieldset {
+	background-color: #ddeecc;
+	border-width: 1px;
+	border-style: solid;
+	border-color: white;
+}
+
+fieldset legend {
+	font-weight: bold;
+	font-size: 25px;
+	color: green;
+}
+
+.personal_info label {
+	float:left;
+	width: 120px;
+}
+
+.button_style input {
+	color: red;
+	width: 200px;
+	height: 30px;
+	font-size: 20px;
+	background-color:yellow;
+}
